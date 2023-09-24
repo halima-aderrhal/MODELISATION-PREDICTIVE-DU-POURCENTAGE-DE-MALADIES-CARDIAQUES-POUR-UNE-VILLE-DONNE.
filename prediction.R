@@ -9,7 +9,7 @@ library(zoo)
 library(ggplot2)
 #rechargement des donnees 
 library(readr)
-heart_data <- read_delim("heart.data.csv", 
+heart_data <- read_delim("MODELISATION-PREDICTIVE-DU-POURCENTAGE-DE-MALADIES-CARDIAQUES-POUR-UNE-VILLE-DONNE.-main/heart.data.csv", 
                          delim = ";", escape_double = FALSE, trim_ws = TRUE)
 View(heart_data)
 
