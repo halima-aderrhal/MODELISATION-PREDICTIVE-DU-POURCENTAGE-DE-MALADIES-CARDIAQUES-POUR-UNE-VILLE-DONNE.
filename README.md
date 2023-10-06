@@ -1,23 +1,25 @@
-# MODELISATION-PREDICTIVE-DU-POURCENTAGE-DE-MALADIES-CARDIAQUES-POUR-UNE-VILLE-DONNE.
-c'est un projet de modélisation statistique de prédiction des maladies cardiaques
-# Introduction
-En statistique, la régression linéaire est utilisée pour modéliser une relation entre une variable dépendante continue et une ou plusieurs variables indépendantes. La variable indépendante peut être catégorielle ou numérique. Le cas où nous n’avons qu’une seule variable indépendante, cela s’appelle une régression linéaire simple. Si nous avons plus d’une
-variable indépendante, cela s’appelle une régression multivariée ou multiple. Une représentation mathématique d’un modèle de régression linéaire multiple est la suivante : Yi = β0 + β1×X1 + β2×X2 + ... + βn×Xn + εi
-Dans l’équation ci-dessus, le coefficient β0 représente l’interception et le coefficient βi représente la pente.
-# Base de donnée
-## data.heart.csv
-Cet ensemble de données contient des informations sur la maladie cardiaque, fournies par le site connu KAGGLE. Il comprend deux variables telles que le tabagisme (smoking)et faire du vélo (biking) .
-Cet ensemble de données peut être utilisé pour étudier la maladie cardiaque et comprendre les facteurs qui influencent cette variable. Il peut être utilisé par des chercheurs, des scientifiques de la données, et toute personne intéressée par l'analyse de données sur la santé.
-## Motivation
-L'ensemble de données vise à répondre aux questions clés suivantes:
-1. Les différents facteurs prédictifs choisis initialement ont-ils vraiment un impact sur la maladie cardiaque? Quels sont les variables prédictives qui affectent réellement la maladie cardiaque?
-2. La maladie cardiaque a-t-elle une corrélation positive ou négative avec le tabagisme et l’utilisation du vélo?
-## Variables
-Deux variables explicatives quantitatives :
-● Biking : le pourcentage de personnes se rendant au travail à vélo chaque jour.
-● Smoking : le pourcentage de fumeurs.
-Et la variable à expliquer :
-● Heart Disease : le pourcentage de personnes souffrant de maladies cardiaques.
-# Conclusion
-Nous avons grâce au logiciel R pu mettre en oeuvre les techniques de statistiques descriptives, tests d’hypothèses et d’analyse de données vues lors du cours. Nous avons découvert quelles sont les variables qui sont significatives dans notre jeu de données grâce au processus de modélisation.
-Etant donné tout ce qui précède nous validons notre modèle ,et nous avons pu déduire une diminution de 0,2 % (± 0,0013) de la fréquence des maladies cardiaques pour chaque augmentation de 1 % de la pratique du vélo et une augmentation de 0,177 % (± 0,0033) de la fréquence des maladies cardiaques pour chaque augmentation de 1% du tabagisme.
+# PREDICTIVE MODELING OF HEART DISEASE PERCENTAGE FOR A GIVEN CITY
+
+**Introduction:**
+In statistics, linear regression is used to model the relationship between a continuous dependent variable and one or more independent variables. The independent variable can be categorical or numeric. When we have only one independent variable, it's called simple linear regression. If we have more than one independent variable, it's called multivariate or multiple regression. A mathematical representation of a multiple linear regression model is as follows: 
+
+In the equation above, the coefficient β0 represents the intercept, and the coefficient βi represents the slope.
+
+**Database:**
+- **data.heart.csv:** This dataset contains information about heart disease, provided by the well-known website KAGGLE. It includes two variables: smoking and biking. This dataset can be used to study heart disease and understand the factors that influence this variable. It can be utilized by researchers, data scientists, and anyone interested in health data analysis.
+
+**Motivation:**
+The dataset aims to address the following key questions:
+1. Do the initially chosen predictive factors truly have an impact on heart disease? What are the predictive variables that actually affect heart disease?
+2. Does heart disease have a positive or negative correlation with smoking and biking?
+
+**Variables:**
+Two quantitative explanatory variables:
+- **Biking:** The percentage of people commuting to work by bike each day.
+- **Smoking:** The percentage of smokers.
+And the response variable:
+- **Heart Disease:** The percentage of people suffering from heart diseases.
+
+**Conclusion:**
+Using the R software, we were able to implement descriptive statistics, hypothesis tests, and data analysis techniques covered in the course. We discovered which variables are significant in our dataset through the modeling process.
+Based on the findings, we validate our model and deduce a decrease of 0.2% (± 0.0013) in the frequency of heart diseases for every 1% increase in biking practice and an increase of 0.177% (± 0.0033) in the frequency of heart diseases for every 1% increase in smoking.
